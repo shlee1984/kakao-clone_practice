@@ -1,0 +1,13 @@
+.friends .friends_plus {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-top: 5px solid #fcfcfc;
+  border-bottom: 5px solid #fcfcfc;
+}
+
+.friends_plus .friends_title,
+.friends_list .friends_title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}

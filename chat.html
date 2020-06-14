@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/9ee72bc3fc.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat</title>
+  </head>
+  <body class="chats-body">
+    <div class="status-bar">
+      <div class="status-bar_columm">
+        <span class="status-bar">13:53</span>
+      </div>
+      <div class="status-bar_columm">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar-battery">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header_header-column">
+        <a href="index.html" class="header_back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header_title">Juan's cat</h1>
+      </div>
+      <div class="header_header-colum">
+        <span class="header_icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header_icon">
+          <i class="fas fa-bars"> </i>
+        </span>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <ul class="chat_message">
+        <span class="chat_timestamp">Friday, January 11, 2019</span>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" alt="m-avatar message_avatar" />
+          <div class="message_content">
+            <div class="message_bubble">congratulation!</div>
+            <span class="message_author">bestfriend</span>
+          </div>
+          <span class="message_timestamp"></span>
+        </li>
+        <li class="sent-message">
+          <span class="message_timestamp"></span>
+          <div class="message_contents">
+            <div class="message_bubble">thank you! see you soon!</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat_write">
+      <div class="chat_write-colum">
+        <i class="fas fa-plus-square"></i>
+      </div>
+      <div class="chat_write-colum">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat_write-input"
+        />
+      </div>
+      <div class="chat_write-colum">
+        <span class="chat_write-icon">
+          <i class="fas fa-smile-wink"></i>
+        </span>
+        <span class="chat_write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
